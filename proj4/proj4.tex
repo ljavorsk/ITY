@@ -1,0 +1,51 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage[left=2cm, top=3cm, text={17cm, 24cm}]{geometry}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{url}
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+	\Huge\textsc{Vysoké učení technické v~Brně}\\
+	\huge\textsc{Fakulta informačních technologií}\\
+	\vspace{\stretch{0.382}}
+	\LARGE Typografie a publikování\,--\,4. projekt\\
+	\Huge Bibliografické citace\\
+	\vspace{\stretch{0.618}}
+	\end{center}
+	{\Large \today \hfill Lukáš Javorský}
+\end{titlepage}
+
+
+\section{Čo je to Typografia?}
+Typografia je veda, ktorá sa zaoberá problematikou tlačovej úpravy grafických dokumentov. Zaoberá sa tiež dizajnom a celkovým pôsobením na čitateľa, jej snaha je aby mu bol text, ktorý číta čo najprívetivejší. Viacej informácii na \cite{TypografiaWiki}.
+
+\section{Čo je to \LaTeX?}
+\LaTeX\ je veľmi kvalitný typografický \textit{software}, ktorý je určený na profesionálne sádzanie dokumentov. \LaTeX\ vy\-u\-ží\-va jazyk TeX, vyvinutý \textit{Donaldom Knuthom} v~70. rokoch, ktorý ho založil na myšlienke, že autor by sa mal zaoberať iba obsahom textu, a formátovanie by za neho mal urobiť počítač \textit{automaticky}. Program \LaTeX\ je popísaný aj vo veľa knihách (napr. \cite{BookKopka}) Pre viac o~\LaTeX u viz \cite{LatexWiki}.
+
+\section{Ako začať?}
+Začiatky v~jazyku TeX možno pre laikov, nebudú niečo jednoduché, každopádne kvôli takejto veci je tu veľa dobrých \textit{kníh}, ktoré majú začiatočníkom pomôcť. Jedna z~takýchto kníh je aj \textit{Latex pro začátečníky} od \textit{Jiřího Rybičku} \cite{BookRybicka}.
+
+\section{Možnosti v~\LaTeX u}
+Program \LaTeX\ obsahuje, veľa rôznorodých \textbf{funkcií}, ktoré vedia autorovi veľmi pomôcť a uľahčiť niektoré pracné vypisovanie.
+Ako príklad môžem uviesť \textit{vkladanie externých grafických súborov do dokumentu}, ktoré je pekne popísané tu \cite{ThesisBunka}. Taktiež je často využívaná funkcia \textit{sazby sekvenčných diagramov}, popísaná v~bakalárskej práci \textit{Tomáša Fábryho} \cite{ThesisFabry}.
+
+\subsection{Matematika v~\LaTeX e}
+Matematika v~\LaTeX e si zaslúži vlastnú podsekciu. Kvôli matematickým funkciám si \LaTeX\ spravil takú popularitu hlavne vo vedeckých článkoch. Na tomto odkaze máte viacej matematických príkladov \cite{MathLatexWiki}. Taktiež sa môže jazyk TeX využívať ako vstup pre iné programy. Napríklad na prevod do \textit{Algebraic Modeling Language (AML)} \cite{ArticleMath}.
+
+\subsubsection{Matice}
+Veľkou doménov pre \LaTeX\ sú matematické \textbf{matice}. Keďže táto časť matematiky je vysoko využívaná, preto asi každý matematik svoje práce píše v~\LaTeX u. Niečo o~maticiach sa môžme dočítať aj zo zborníku konferencie \textit{
+IEEE Conference Publications} \cite{ProceedingMatrix}.
+
+\subsection{Triky od užívateľov}
+Na tému \LaTeX\ píše veľa užívateľov zaújmavé články, v~ktorých sa dá nájsť veľa trikov a poprípade sa nimi aj inšpirovať. Napríklad o~nich písala aj skupina užívateľov \LaTeX u známa ako \textit{TeX Users Group}, v~článku o~neznámych trikoch \LaTeX u \cite{ArticleTips}.
+
+
+\newpage
+\bibliographystyle{czechiso}
+\bibliography{proj4}
+\end{document}
